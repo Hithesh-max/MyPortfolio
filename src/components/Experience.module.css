@@ -1,0 +1,199 @@
+.experience {
+  background: linear-gradient(180deg, #0a0f1e 0%, #050a14 100%);
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.timelineItem {
+  position: relative;
+  padding-left: 48px;
+}
+
+.timelineDot {
+  position: absolute;
+  left: 0;
+  top: 28px;
+  width: 16px;
+  height: 16px;
+  background: var(--dot-color);
+  border-radius: 50%;
+  box-shadow: 0 0 16px var(--dot-color);
+  z-index: 2;
+}
+
+.timelineDot::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--dot-color);
+  opacity: 0.3;
+  animation: ringPulse 2s ease-in-out infinite;
+}
+
+@keyframes ringPulse {
+  0%, 100% { transform: scale(1); opacity: 0.3; }
+  50% { transform: scale(1.4); opacity: 0; }
+}
+
+.timelineLine {
+  position: absolute;
+  left: 7px;
+  top: 44px;
+  bottom: -40px;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.4), transparent);
+}
+
+.expCard {
+  padding: 32px;
+}
+
+.expTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.expType {
+  display: inline-block;
+  padding: 3px 12px;
+  border: 1px solid;
+  border-radius: 50px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+}
+
+.expRole {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 4px;
+}
+
+.expCompany {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.expDuration {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: #475569;
+  white-space: nowrap;
+}
+
+.points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.point {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+.pointDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 8px;
+}
+
+.techTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.techTag {
+  padding: 4px 12px;
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: 50px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: #60a5fa;
+}
+
+/* Activities */
+.activitiesSection {
+  margin-top: 20px;
+}
+
+.activitiesTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #94a3b8;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.activitiesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.actCard {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actIcon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.actTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.actSub {
+  font-size: 0.78rem;
+  color: #475569;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .activitiesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .expTop {
+    flex-direction: column;
+  }
+}
