@@ -7,7 +7,7 @@ const experiences = [
   {
     role: 'AI Intern',
     company: 'Byosync',
-    duration: '2 Months · 2024',
+    duration: '3 Months · 2024',
     type: 'Internship',
     color: '#60a5fa',
     points: [

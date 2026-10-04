@@ -164,9 +164,9 @@ export default function Hero() {
             transition={{ delay: 0.85, duration: 0.6 }}
           >
             {[
-              { value: '120+', label: 'LeetCode' },
-              { value: '8+', label: 'Projects' },
-              { value: '4', label: 'Certificates' },
+              { value: '90+', label: 'LeetCode' },
+              { value: '14+', label: 'Projects' },
+              { value: '6+', label: 'Certificates' },
             ].map(stat => (
               <div key={stat.label} className={styles.stat}>
                 <span className={styles.statValue}>{stat.value}</span>

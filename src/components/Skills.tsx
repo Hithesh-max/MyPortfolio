@@ -35,6 +35,23 @@ const skillGroups = [
     skills: ['Python', 'Java', 'C/C++', 'SQL'],
   },
   {
+    category: 'Ethical Hacking & Cybersecurity',
+    icon: '🛡️',
+    color: '#00ffc2',
+    skills: [
+      'Kali Linux',
+      'Metasploit Framework',
+      'Nmap',
+      'Wireshark',
+      'Burp Suite',
+      'OWASP ZAP',
+      'John the Ripper',
+      'Hydra',
+      'Nikto',
+      'SQLmap',
+    ],
+  },
+  {
     category: 'Tools & Platforms',
     icon: '🛠️',
     color: '#00d4ff',

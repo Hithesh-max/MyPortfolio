@@ -9,7 +9,7 @@ const education = [
     institution: 'MIT Manipal',
     location: 'Manipal, Karnataka',
     period: 'Expected Aug 2028',
-    score: 'CGPA: 7.2',
+    score: 'Undergraduate',
     color: '#60a5fa',
     icon: '🎓',
     highlights: [
@@ -52,32 +52,44 @@ const education = [
 const certifications = [
   {
     title: 'Structuring Machine Learning Projects',
-    issuer: 'DeepLearning.AI · Coursera',
+    issuer: 'DeepLearning.AI',
     color: '#fb923c',
     icon: '🧠',
   },
   {
     title: 'Generative and Agentic AI',
-    issuer: 'Coursera',
+    issuer: 'Oxford',
     color: '#60a5fa',
     icon: '🤖',
   },
   {
-    title: 'Neural Networks and Deep Learning',
-    issuer: 'Coursera',
+    title: 'Neural Networks and Deep Learning 2026',
+    issuer: 'DeepLearning.AI',
     color: '#34d399',
     icon: '⚡',
   },
   {
-    title: 'AI Internship',
-    issuer: 'Byosync · 2 Months',
+    title: 'Google Advanced Data Analytics Professional Certificate 2026',
+    issuer: 'Google',
+    color: '#f59e0b',
+    icon: '📊',
+  },
+  {
+    title: 'Ethical Hacking Foundations',
+    issuer: 'Packt',
+    color: '#00d4ff',
+    icon: '🛡️',
+  },
+  {
+    title: 'AI Engineering Internship',
+    issuer: 'Byosync · 3 Months',
     color: '#a78bfa',
     icon: '💼',
   },
   {
-    title: '120+ LeetCode Problems',
+    title: '90+ LeetCode Problems',
     issuer: 'Competitive Programming',
-    color: '#fbbf24',
+    color: '#fb7185',
     icon: '🏆',
   },
 ];

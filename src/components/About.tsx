@@ -38,7 +38,7 @@ export default function About() {
               of AI and software engineering.
             </p>
             <p className={styles.bio}>
-              I&apos;ve gained hands-on experience as an <strong>AI Intern at Byosync</strong>, where I 
+              I&apos;ve gained hands-on experience as an <strong>AI Intern at Byosync (3 Months)</strong>, where I 
               developed real-world ML models and contributed to production-grade AI pipelines. My journey 
               spans machine learning, generative AI, agentic systems, and web development.
             </p>
@@ -77,11 +77,11 @@ export default function About() {
           <motion.div variants={fadeUp} className={styles.right}>
             <div className={styles.statsGrid}>
               {[
-                { icon: '🏆', value: '120+', label: 'LeetCode Problems', color: '#f59e0b' },
-                { icon: '🎓', value: '7.2', label: 'CGPA at MIT Manipal', color: '#60a5fa' },
-                { icon: '🚀', value: '8+', label: 'Projects Built', color: '#34d399' },
-                { icon: '🤖', value: '2mo', label: 'AI Internship', color: '#a78bfa' },
-                { icon: '📜', value: '3+', label: 'Certifications', color: '#fb7185' },
+                { icon: '🏆', value: '90+', label: 'LeetCode Problems', color: '#f59e0b' },
+                { icon: '📜', value: '6+', label: 'Certifications', color: '#60a5fa' },
+                { icon: '🚀', value: '14+', label: 'Projects Built', color: '#34d399' },
+                { icon: '🤖', value: '3mo', label: 'AI Internship', color: '#a78bfa' },
+                { icon: '🛡️', value: 'Security', label: 'Ethical Hacking', color: '#00d4ff' },
                 { icon: '⭐', value: '94%', label: '12th Grade Score', color: '#fbbf24' },
               ].map((s, i) => (
                 <motion.div
